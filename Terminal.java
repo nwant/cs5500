@@ -94,8 +94,10 @@ public class Terminal {
     }
 
     private void presentBasicCommandOptions() {
-        printInfo("Select from the following options:\n");
+        printInfo("\nSelect from the following options:\n");
         printInfo("Press '*' to logout");
+        printInfo("Press 'b' to list all of your borrowed items.");
+        printInfo("Press 'c' to view the entire catalog.");
         printInfo("Press '1' to borrow a book");
         printInfo("Press '2' to return a book");
     }
